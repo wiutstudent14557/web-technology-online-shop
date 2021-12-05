@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/register.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="wrapper register-container">
+            <form class="form-createAccount">
+                <h1>Create Account</h1>
+                <input type="text" placeholder="Name" class="nameField" />
+                <input type="email" placeholder="Email" class="emailField" />
+                <input type="password" placeholder="Password" class="passwordField" />
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div class="wrapper login-container">
+            <form class="loginForm">
+                <h1 class="signin">Login</h1>
+                <input type="email" placeholder="Email" class="loginEmail" />
+                <input type="password" placeholder="Password" class="loginPassword" />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="changeable-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odit fugit repudiandae itaque soluta. Harum sit, ipsa optio sed tempore rem laboriosam autem sapiente explicabo quasi iste praesentium totam earum.</p>
+                    <button class="ghost showRegister" id="signIn">Register Now!</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Good time of today!</h1>
+                    <p>“This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service”</p>
+                    <button class="ghost hideRegister" id="signUp">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/register.js"></script>
+</body>
+
+</html>

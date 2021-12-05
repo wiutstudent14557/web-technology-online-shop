@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+    <link rel="stylesheet" href="/styles/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <header>
+        <h2>Welcome to online beer center</h2>
+        <a href="./main.html">
+            <i class="fas fa-sign-out-alt exitIcon"></i>
+        </a>
+    </header>
+    <form>
+        <div class="form-field">
+            <div class="left">
+                <div class="field">
+                    <label for="name">Enter your name</label>
+                    <input type="text" class="user" id="name">
+                </div>
+                <div class="field">
+                    <label for="phone">Phone number</label>
+                    <input type="number" class="phoneNum" id="phone">
+                </div>
+            </div>
+            <div class="right">
+                <div class="field">
+                    <label for="beer">Type of beer</label>
+                    <select id="beer" class="beerType">
+                    <option value="Budweiser">Budweiser</option>
+                    <option value="Ales">Ales</option>
+                    <option value="Lager">Lager</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="location">Your Location</label>
+                    <input type="text" class="location" id="location">
+                </div>
+            </div>
+        </div>
+        <button>Add new user</button>
+    </form>
+
+    <div class="whole-table-wrapper">
+
+        <div class="table-section">
+            <div class="table-title">
+                <h2>Online beer shop</h2>
+            </div>
+            <div class="table-details">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>USERNAME</th>
+                            <th>PHONE-NUMBER</th>
+                            <th>TYPE OF BEER</th>
+                            <th>LOCATION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="/js/online-service.js"></script>
+</body>
+
+</html>
