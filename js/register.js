@@ -119,7 +119,7 @@ loginForm.addEventListener("submit", (e)=>{
         if(localStorage.getItem('users') == null){
            alert("sorry you are not authorized")
         }else if(JSON.parse(localStorage.getItem('users'))[0].email === loginEmail.value && JSON.parse(localStorage.getItem('users'))[0].password === loginPassword.value){
-            window.location.href = "../web-pages/main.html"
+            document.getElementById("hiddenBtn").click()
         }else{
             alert("sorry you are not authorized")
         }
