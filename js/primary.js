@@ -38,7 +38,7 @@ hiddenCloseBtn.forEach(btn=>{
 
 window.addEventListener("load",()=>{
     if(!localStorage.getItem("users")){
-         document.getElementById("hiddenLink").click()
+         document.getElementById("hiddenBtn").click()
     }
 })
 
@@ -78,7 +78,7 @@ menuBTN.addEventListener("click",()=>{
 })
 
 logoutButton.addEventListener("click",()=>{
-    window.location.href = "/index.html"
+    document.getElementById("hiddenBtn").click()
 })
 
 
