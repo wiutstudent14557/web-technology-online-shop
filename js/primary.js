@@ -38,7 +38,7 @@ hiddenCloseBtn.forEach(btn=>{
 
 window.addEventListener("load",()=>{
     if(!localStorage.getItem("users")){
-        return document.getElementById("hiddenLink").click()
+         document.getElementById("hiddenLink").click()
     }
 })
 
